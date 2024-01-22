@@ -3,7 +3,7 @@ from flask import *
 import json
 from student import Student
 
-app = Flask(__name__)
+App_ = Flask(__name__)
 
 def go_home():
     c = sqlite3.connect("../BookSDKDemo/book.db").cursor()
